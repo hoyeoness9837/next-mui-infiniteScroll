@@ -37,4 +37,4 @@ Search images via unsplash api while scrolling down infinitely.
 
 ### Deployed URL
 - Click the following link to try now
-  <!-- - #### [LINK](https://mern-next-auth-googlebook.vercel.app/) -->
+  - #### [LINK](https://next-mui-infinite-scroll.vercel.app/)
