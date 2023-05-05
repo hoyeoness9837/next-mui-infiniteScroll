@@ -1,0 +1,45 @@
+.section__container {
+    position: relative;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.section {
+    margin: auto;
+    padding: 40px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.container_col {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+}
+
+.container_row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width: 768px) {
+
+   .section__container {
+    padding: 0 10px;
+        }
+
+    .section {
+        padding: 10px;
+    }
+
+    .container_col {
+        padding: 10px;
+    }
+    .container_row {
+        align-items: center;
+    }
+}

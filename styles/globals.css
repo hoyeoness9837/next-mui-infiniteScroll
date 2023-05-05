@@ -1,0 +1,102 @@
+:root {
+    /* Font size */
+    --font-large: 24px;
+    --font-medium: 18px;
+    --font-regular: 12px;
+    --font-small: 10px;
+    --font-micro: 8px;
+  
+    /* Font weight */
+    --weight-bold: 700;
+    --weight-semi-bold: 500;
+    --weight-regular: 300;
+  
+    /* Size */
+    --size-border-radius: 4px;
+    --size-circle-radius: 20px;
+  
+    /* Animation duration */
+    --animation--duration: 300ms;
+  }
+  
+  html,
+  body {
+    margin: 0;
+    min-width: 330px;
+    padding: 0;
+    margin: 0;
+  }
+  
+  a {
+    color: inherit;
+    text-decoration: none !important;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  h1,
+  h2,
+  p,
+  ul {
+    margin: 0;
+  }
+  
+  ul {
+    padding: 0;
+    list-style: none;
+  }
+  
+  button {  
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+  }
+  
+  h1 {
+    font-size: var(--font-large);
+    font-weight: var(--weight-bold);
+    margin: 16px 0px;
+  }
+  h2 {
+    font-size: var(--font-medium);
+    font-weight: var(--weight-semi-bold);
+    margin: 8px 0;
+  }
+  h3 {
+    font-size: var(--font-regular);
+    font-weight: var(--weight-regular);
+    margin: 8px 0;
+  }
+  p {
+    font-size: var(--font-regular);
+    font-weight: var(--weight-regular);
+    margin: 4px 0;
+  }
+  
+  
+  @media screen and (max-width: 768px) {
+    :root {
+      --font-large: 16px;
+      --font-medium: 12px;
+      --font-regular: 10px;
+      --font-small: 8px;
+      --font-micro: 6px;
+    }
+  
+    .mui-style-1qvr50w-MuiTypography-root {
+      font-size: 1rem !important;
+    }
+    .mui-style-nrdprl-MuiTypography-root{
+      font-size: 0.6rem !important;
+    }
+  }
