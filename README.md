@@ -1,19 +1,18 @@
-# mern-next-auth-googlebook
+# Next-MUI-InfiniteScroll
 
 ### Description
+Search images via unsplash api while scrolling down infinitely.
 
 ### Installation
-
 - Clone this repository to your local computer.
 - Open the folder in your IDE.
 - `npm install`
-- create .env.local file in the root folder then fill out the following env variables.
+- Create .env.local file in the root folder then fill out the following env variables.
   1. NEXT_PUBLIC_UNSPLASH = yourkey
 - `npm run dev ` or `npm build` and then `npm start`
 - The app should be running on http://localhost:3000
 
 ### Technology used
-
 - React
 - Next.js
 - MUI
